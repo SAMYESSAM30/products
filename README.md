@@ -4,7 +4,7 @@ Welcome to the Products List Application! This web application allows users to e
 
 ## Demo
 
-You can access the live demo of the application [here](https://products-list-next.netlify.app/).
+You can access the live demo of the application [here](https://products-snowy.vercel.app/).
 
 ## Technologies Used
 
