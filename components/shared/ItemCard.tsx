@@ -2,17 +2,15 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 import { ItemType } from "@/types/ItemType";
-import { LoaderIcon, PlusIcon } from "lucide-react";
+
 import Image from "next/image";
-import { FC, useEffect, useState } from "react";
+import { FC} from "react";
 import { Button } from "../ui/button";
 import { Separator } from "../ui/separator";
-import { useCart } from "@/context/CartContext";
 import { truncateString } from "@/lib/utils";
 import Link from "next/link";
 
