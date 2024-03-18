@@ -6,11 +6,10 @@ type Props = { params: { id: number } };
 
 const page = async({ params }: Props) => {
   const prodect = await fetchProduct(params.id);
-  const item = prodect.map((item:ItemType , i) => item)
   return (
     <section>
       
-      <ShowProduct item={item}/>
+      <ShowProduct item={prodect}/>
       </section> )
 }
 
