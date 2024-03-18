@@ -1,12 +1,12 @@
 import { ItemType } from '@/types/ItemType';
 import { Rating } from '@mui/material'
 import Image from 'next/image'
-import React, { FC } from 'react'
-type ItemCardProps = {
+import { FC } from 'react'
+type props = {
     item: ItemType;
   };
   
-const ShowProduct: FC<ItemCardProps> = ({ item }) => {
+const ShowProduct = ({ item }:props) => {
     const { title, thumbnail, price, discountPercentage, rating, stock, brand, category, description, images} = item;
   return (
       <div>
