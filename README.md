@@ -17,16 +17,6 @@ The Products List Application is built using the following technologies:
 - **Context API**
 - **Shadcn UI**
 
-## Features
-
-The key features of the Products List Application include:
-
-- Viewing a list of products with details such as title, description, image, and price.
-- Filtering products by price range to narrow down the search results.
-- Sorting products by price or name to organize the list based on user preferences.
-- Searching for specific items using the search bar to quickly find desired products.
-- Adding items to the cart for purchase and managing the cart contents.
-
 ## Getting Started
 
 To run the application locally, follow these steps:
