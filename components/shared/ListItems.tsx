@@ -5,8 +5,7 @@ type ListItemsProps = {
   items: ItemType[];
 };
 
-const ListItems: React.FC<ListItemsProps> = ({ items }) => {
-  console.log("items", items.length);
+const ListItems: React.FC<ListItemsProps> = ({ items }) => { 
   return (
     <div>
       <p className="my-4">Total results count: {items.length}</p>
