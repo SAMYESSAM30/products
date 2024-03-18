@@ -1,6 +1,6 @@
 # Products List Application
 
-Welcome to the Products List Application! This web application allows users to explore a wide selection of products, filter them by price range, and sort them by price or name. Users can also search for specific items using the search bar and add them to the cart for purchase.
+Welcome to the product list app! This web application allows users to explore a wide range of products, and sort them by name.
 
 ## Demo
 
