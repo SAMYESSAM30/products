@@ -1,6 +1,6 @@
 import { ItemType } from "@/types/ItemType";
 
-async function fetchProducts(): Promise<ItemType[]> {
+async function fetchProducts() {
   try {
     const response = await fetch("https://dummyjson.com/products/");
 
@@ -8,14 +8,14 @@ async function fetchProducts(): Promise<ItemType[]> {
       throw new Error("Failed to fetch data");
     }
 
-    const data: ItemType[] = await response.json();
+    const data= await response.json();
     return data.products;
   } catch (error) {
     console.error("Error fetching data:", error);
     throw error;
   }
 }
-export async function fetchProduct(id : number): Promise<ItemType[]> {
+export async function fetchProduct(id) {
   try {
     const response = await fetch(`https://dummyjson.com/products/${id}`);
 
@@ -23,7 +23,7 @@ export async function fetchProduct(id : number): Promise<ItemType[]> {
       throw new Error("Failed to fetch data");
     }
 
-    const data: ItemType[] = await response.json();
+    const data = await response.json();
     return data;
   } catch (error) {
     console.error("Error fetching data:", error);
