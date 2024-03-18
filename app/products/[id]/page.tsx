@@ -2,6 +2,7 @@ import { fetchProduct } from "@/services/ProductService";
 import Image from "next/image"
 import Rating from '@mui/material/Rating';
 import ShowProduct from "@/components/shared/ShowProduct";
+
 type Props = { params: { id: number } };
 
 const page = async({ params }: Props) => {
@@ -10,7 +11,7 @@ const page = async({ params }: Props) => {
     console.log('item', product)
   return (
     <section>
-      <ShowProduct product={product}/>
+      <ShowProduct item={product}/>
       </section> )
 }
 
